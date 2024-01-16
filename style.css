@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400&family=Leckerli+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&display=swap');
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #24445B;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-body{
+    width: 380px;
+    height: 500px;
+    background-color: #C9E5FB;
+    align-self: center;
+    border-radius: 20px;
+}
+
+.top-content{
+    width: 100%;
+    background-color: #03A9F3;
+    height: 200px;
+    border-radius: 20px 20px 0 0;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.text h1{
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    border-bottom: 3px solid white;
+    padding-bottom: 3px;
+    font-size: 36px;
+}
+
+.description{
+    font-family: 'League Spartan', sans-serif;
+    color: #24445B;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+    margin-top: 5px;
+}
+
+.back-img{
+    background-color: white;
+    border-radius: 50%;
+    width:210px;
+    height: 210px;
+}
+
+.card-body img{
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.info-content{
+    width: 100%;
+    margin-top: 110px;
+    height: 120px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.first-content{
+    background-color: #24445B;
+    padding: 5px;
+    width: 80%;
+    height: auto;
+}
+
+.second-content{
+    background-color: #24445B;
+    padding: 5px;
+    width: 80%;
+    height: auto;
+    align-self: flex-end;
+    justify-self: flex-end;
+    margin-top: 50px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.buttons{
+    display: flex;
+}
+
+.buttons a {
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    color: #24445B;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-right: 20px;
+    border: 1px solid #24445B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .buttons a:hover {
+    color: white;
+    background-color: #24445B;
+    text-decoration: none;
+  }
+  
+  .buttons .instagram i,
+  .buttons .google i,
+  .buttons .whatsapp i {
+    font-size: 36px;
+    width: auto;
+    text-decoration: none;
+  }
+
+
+  
+  
+  
